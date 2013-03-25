@@ -15,7 +15,7 @@ namespace DomainWebProxy
         {
             //var password = new SecureString();
             //"myADdomainPassword".ToCharArray().ToList().ForEach(p => password.AppendChar(p));
-            //var credentials = new NetworkCredential("aluqman", password, "ad");
+            //var credentials = new NetworkCredential("myuserName", password, "ad");
 
             var uri = new Uri("http://proxy-name:8080");
 
